@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir foto a la galería</title>
+</head>
+<body>
+    <h1>Subida de fotos a la galería</h1>
+    <a href="galeria.php">Ver galería</a>
+    <p>
+        <form enctype="multipart/form-data" action="subida.php" method="POST">
+            Enviar: <input name="foto" type="file" accept="image/jpg, image/gif, image/png, image/svg"/>
+            <input type="submit" value="Enviar fichero" />
+        </form>
+    </p>
+</body>
+</html>
